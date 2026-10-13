@@ -1,0 +1,42 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+}
+.box{
+    /* Box model demonstration */
+    background-color: lightgray;
+    
+    /* Content */
+    width: 100%;
+
+    /* Padding (space inside) */
+    padding: 20px;
+
+    /* Border */
+    border: 2px solid black;
+
+    /* Margin (space outside) */
+    margin: 20px 0;
+}
+
+.highlight{
+    background-color: yellow;
+    font:bold
+}
+
+.footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

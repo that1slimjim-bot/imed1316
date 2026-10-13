@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+
+header{
+    background-color: #0000ff;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* clear floats */
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: left;
+    width: 19%;
+    height: 1000px;
+    background: #01bcf5;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+article{
+    float: left;
+    width: 70%;
+    background-color: #0097ae;
+    padding: 18px;
+    height: 1004px;
+}
+
+footer{
+    background-color: #0000ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px){
+    nav, article{
+        width: 100%;
+        height: auto;
+    }
+}
